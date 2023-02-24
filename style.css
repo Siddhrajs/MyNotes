@@ -55,7 +55,8 @@ a:link {
 /* Other Non-Flexbox Related Styles */
 .c-header,
 .c-footer {
-  background: #ededed;
+  background: rgb(237,237,237);
+  background: linear-gradient(180deg, rgba(237,237,237,1) 1%, rgba(250,248,247,1) 100%);
   text-align: center;
   padding: 2em;
   font-family: CenturyGothic, AppleGothic, sans-serif;
