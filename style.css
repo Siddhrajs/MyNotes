@@ -3,8 +3,6 @@
   flex-wrap: wrap;
   align-items: top;
   padding: 5%;
-  background: rgb(33,175,222);
-  background: linear-gradient(180deg, rgba(33,175,222,1) 1%, rgba(40,40,158,1) 81%, rgba(10,0,63,1) 100%);
 }
 .c-posts__item {
   flex-grow: 1;
@@ -57,8 +55,7 @@ a:link {
 /* Other Non-Flexbox Related Styles */
 .c-header,
 .c-footer {
-  background: rgb(2,0,36);
-  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(40,40,158,1) 35%, rgba(0,212,255,1) 100%);
+  background: #ededed;
   text-align: center;
   padding: 2em;
   font-family: "Tilt Prism", cursive;
@@ -102,7 +99,7 @@ body {
   line-height: 1.6em;
   padding: 0;
   margin: 0;
-  background: #8cbaff;
+  background: #faf8f7;
 }
 
 h1 {
