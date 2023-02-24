@@ -12,6 +12,7 @@
   flex-grow: 2;
 }
 .subjecttitle {
+  display: block;
   align: center;
 }
 
