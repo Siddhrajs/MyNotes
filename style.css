@@ -56,7 +56,8 @@ a:link {
 /* Other Non-Flexbox Related Styles */
 .c-header,
 .c-footer {
-  background: #438db5;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(40,40,158,1) 35%, rgba(0,212,255,1) 100%);
   text-align: center;
   padding: 2em;
   font-family: "Tilt Prism", cursive;
