@@ -12,8 +12,7 @@
   flex-grow: 2;
 }
 .subjecttitle {
-  display: block;
-  align: center;
+  text-align: center;
 }
 
 @media all and (min-width: 600px) {
