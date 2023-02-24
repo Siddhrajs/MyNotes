@@ -47,10 +47,10 @@
 /* Other Non-Flexbox Related Styles */
 .c-header,
 .c-footer {
-  background: #FF00FF;
+  background: #438db5;
   text-align: center;
   padding: 2em;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.4em;
   font-weight: 300;
   line-height: 1.6em;
