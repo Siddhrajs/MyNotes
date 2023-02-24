@@ -58,7 +58,7 @@ a:link {
   background: #438db5;
   text-align: center;
   padding: 2em;
-  font-family: 'Tilt Prism', cursive;
+  font-family: "Tilt Prism", cursive;
   font-size: 1.4em;
   font-weight: 300;
   line-height: 1.6em;
@@ -95,7 +95,7 @@ a:link {
 }
 
 body {
-  font-family: "Georgia", Times, serif;
+  font-family: "Roboti", Times, serif;
   line-height: 1.6em;
   padding: 0;
   margin: 0;
