@@ -11,12 +11,15 @@
 .c-posts__item:first-child {
   flex-grow: 2;
 }
-.subjecttitle {
+.c-subject {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: -3rem;
   width: max-content;
+}
+.c-article {
+  color: black;
 }
 
 @media all and (min-width: 600px) {
