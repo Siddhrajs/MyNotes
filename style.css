@@ -3,7 +3,8 @@
   flex-wrap: wrap;
   align-items: top;
   padding: 5%;
-  background: #8cbaff;
+  background: rgb(33,175,222);
+  background: linear-gradient(180deg, rgba(33,175,222,1) 1%, rgba(40,40,158,1) 81%, rgba(10,0,63,1) 100%);
 }
 .c-posts__item {
   flex-grow: 1;
