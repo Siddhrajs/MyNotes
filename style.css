@@ -12,8 +12,11 @@
   flex-grow: 2;
 }
 .subjecttitle {
+  display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: -3rem;
+  width: 40%;
 }
 
 @media all and (min-width: 600px) {
