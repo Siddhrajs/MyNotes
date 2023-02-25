@@ -13,3 +13,12 @@ function myFunction(x) {
     moreText.style.display = "inline";
   }
 }
+
+function myInitialise() {
+  var btns =  document.getElementsByClassName('c-btn');;
+//  console.log(btns);
+//  btns.forEach(myFunction);
+  for (let i = 1; i <= btns.length; i++) {
+    myFunction(i);
+  }
+}
