@@ -19,6 +19,11 @@ function myInitialise() {
 //  console.log(btns);
 //  btns.forEach(myFunction);
   for (let i = 1; i <= btns.length; i++) {
-    myFunction(i);
+    var dots = document.getElementById("dots"+i);
+    var moreText = document.getElementById("more"+i);
+    var btnText = document.getElementById("myBtn"+i);
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
   }
 }
