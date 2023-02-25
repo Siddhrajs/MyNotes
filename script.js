@@ -16,7 +16,7 @@ function myFunction(x) {
 
 function myInitialise() {
   var btns =  document.getElementsByClassName('c-btn');;
-//  console.log(btns);
+  console.log(btns);
 //  btns.forEach(myFunction);
   for (let i = 1; i <= btns.length; i++) {
     var dots = document.getElementById("dots"+i);
@@ -26,4 +26,13 @@ function myInitialise() {
     btnText.innerHTML = "Read more";
     moreText.style.display = "none";
   }
+  /*const fs = require('fs');
+
+  fs.readFile('./notes.txt', 'utf8', (err,data) => {
+      if(err) {
+        console.log(err);
+        return;
+      }
+      console.log(data);
+  });*/
 }
